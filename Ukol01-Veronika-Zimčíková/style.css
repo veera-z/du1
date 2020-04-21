@@ -1,0 +1,78 @@
+html { box-sizing: border-box; }
+*, :after, :before { box-sizing: inherit; }
+
+body {
+    
+    background: url(pics/IMG_5997.JPG) no-repeat center center fixed;
+    
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    
+}
+
+.text {
+    color: grey;
+    background-color: white;
+    width: 50%;
+    height: auto;
+    
+    margin: 80px 100px 80px 0;
+
+           
+}
+
+h1 {
+    margin: 90px 100px;
+    font-family: 'Press Start 2P', cursive;
+
+    font-size: 60px;
+}
+
+.foto {
+    height: 300px;
+    /* border-radius: 50%; */
+    opacity: 0.65;
+    margin: auto;
+    /* border-radius: 50%; */
+    /* border: 1px solid white; */
+    box-shadow: 9px 9px 30px -14px rgba(255,255,255,1);
+
+}
+
+.info {
+    display: flex;
+}
+
+.odkaz {
+    
+    font-family: 'Press Start 2P', cursive;
+    
+    text-align: right;
+    margin: 65px;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+#top, #bottom, #left, #right {
+	background: white;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
